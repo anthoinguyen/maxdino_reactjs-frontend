@@ -1,0 +1,127 @@
+.section.section-post.feed {
+	box-shadow: none;
+}
+
+.section.section-post.feed .item-feed .dropdown {
+	text-align: right;
+}
+
+.section.section-post.feed .item-feed .dropdown .dropdown-menu-feed{
+	position: absolute;
+	left: -145px !important;
+}
+
+.section.section-post.feed .item-feed .content-post {
+	border-bottom: solid 1px #e8eaef;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.section.section-post.feed .item-feed .content-post .feed-text {
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #383a4a;
+}
+
+.section.section-post.feed .item-feed .content-post .post-feed {
+	margin-top: 10px;
+}
+
+.section.section-post.feed .item-feed .content-post .post-feed .post-feed-content .post-feed-title {
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #383a4a;
+	margin-bottom: 10px;
+}
+.section.section-post.feed .item-feed .content-post .post-feed .post-feed-content{
+	margin-top: 10px;
+}
+.section.section-post.feed .item-feed .content-post .post-feed .post-feed-content .post-feed-detail {
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #383a4a;
+	margin-bottom: 10px;
+}
+
+.section.section-post.feed .item-feed .content-post .post-feed .post-feed-content .post-feed-detail>a {
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #36b662;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+.section.section-post.feed .item-feed .footer-post {
+	display: flex;
+	align-items: center;
+}
+
+.section.section-post.feed .item-feed .footer-post>.ratting {
+	font-family: Montserrat;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #383a4a;
+	margin-right: 30px;
+	margin-bottom: 15px;
+	display: flex;
+	align-items: center;
+}
+
+.section.section-post.feed .item-feed .footer-post>.ratting>b {
+	margin-right: 5px;
+}
+
+.section.section-post.feed .item-feed .footer-post>.ratting .icon-like {
+	font-size: 21px;
+	color: #a9aaad;
+	margin-right: 5px;
+}
+
+.section.section-post.feed .item-feed .footer-post>.ratting .icon-like-color {
+	font-size: 21px;
+	color: #4267b2;
+	margin-right: 5px;
+}
+
+.section.section-post.feed .item-feed .footer-post>.ratting .icon-comment {
+	font-size: 21px;
+	color: #a9aaad;
+	margin-right: 5px;
+}
+
+.img-content-ask {
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 100%;
+    height: 243px;
+}
+@media (max-width: 576px) {
+	.section.section-post.feed .item-feed .dropdown .dropdown-menu-feed {
+		position: absolute;
+		left: -45px !important;
+	}
+}

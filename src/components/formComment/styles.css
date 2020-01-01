@@ -1,0 +1,45 @@
+.item-form-ask-comment{
+    margin-top: 15px;
+}
+.avatar-comment{
+    padding: 5px 5px;
+    margin-left: 10px;
+}
+.form-comment{
+    padding: 0px;
+    max-width: 87%;
+}
+.form-comment form{
+    height: 100%;
+}
+.form-comment input::placeholder {
+	font-family: Montserrat;
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+    color: #a9aaad;
+    padding-left: 5px;
+}
+.input-comment{
+    width: 99%;
+    height: 100%;
+    border-radius: 50px;
+    border: 1px solid #ececec;
+    background-color: #f2f3f5;
+    padding-left: 10px;
+}
+.input-comment:focus {
+    box-shadow: none;
+    border: none;
+}
+
+@media only screen and (max-width: 575px) {
+	.avatar-comment{
+        padding: 5px 5px;
+        margin-left: 10px;
+        max-width: 8%;
+    }
+}

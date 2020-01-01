@@ -1,0 +1,23 @@
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .btn {
+    font-weight: bold;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  .input-img-config {
+      margin: 0;
+      padding: 0;
+  }
+  .camera-config{
+    font-size: 21px;
+  }

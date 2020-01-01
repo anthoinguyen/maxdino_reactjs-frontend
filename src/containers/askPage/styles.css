@@ -1,0 +1,38 @@
+.section {
+	border-radius: 5px;
+	background-color: #ffffff;
+	padding: 15px 20px;
+}
+
+.section .section-title {
+	font-size: 12px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #f9f9f9;
+	text-transform: uppercase;
+}
+
+.section .section-title a {
+	float: right;
+	color: #36b662;
+	text-transform: none;
+}
+
+.section .section-title a:before,
+.section .section-title a:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.loading-ask{
+    text-align: center;
+}
+.img-loading-ask{
+	width: 50px;
+	margin-top: 20px;
+}
+
+@media (max-width: 770px) {
+	.section.section-connection .item-connection .item-connection-content {
+		display: inline;
+	}
+}

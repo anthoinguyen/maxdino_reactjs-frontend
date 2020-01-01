@@ -1,0 +1,19 @@
+.section.section-video .item-video {
+	margin-top: 20px;
+}
+.section-video-learn {
+	margin-top: 20px;
+}
+.margin-video-learn {
+	margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+	.section.section-video{
+		margin-bottom: 20px;
+	}
+	.thumbnail-video {
+		max-height: 160px !important;
+	}
+	.show-video-ask{display: none;}
+}

@@ -1,0 +1,122 @@
+.section.section-post {
+	padding: 20px;
+  box-shadow: 0 15px 27px 0 rgba(56, 58, 74, 0.1);
+  margin-bottom: 20px;
+}
+.head-post {
+  position: relative;
+}
+
+.head-post .avatar-user {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.head-post .head-post-content {
+  padding-left: 52px;
+}
+
+.head-post .head-post-content .head-post-name-user {
+  font-weight: bold;
+  color: #36b662;
+}
+
+.head-post .head-post-content .date {
+  display: inline;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #a9aaad;
+  margin-right: 10px;
+}
+
+.head-post .head-post-content .date .icon-calendar {
+  font-size: 15px;
+  color: #c2c3ce;
+  margin-right: 4px;
+}
+
+.head-post .head-post-content .public {
+  display: inline;
+}
+
+.head-post .head-post-content .public .icon-public {
+  font-size: 15px;
+  color: #057ff1;
+  margin-right: 4px;
+}
+
+.head-post .head-post-content .public .dropdown {
+  display: inline;
+  vertical-align: 1px;
+}
+
+.head-post .head-post-content .public .dropdown .icon-arrow-down {
+  font-size: 10px;
+  color: #c2c3ce;
+}
+
+.content-post .form-control {
+  border: none;
+  border-bottom: solid 1px #e8eaef;
+  margin-top: 15px;
+  outline: none;
+}
+
+.content-post .form-control:focus {
+  border-color: #ffffff;
+}
+
+.footer-post {
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer-post .icon-camera {
+  font-size: 21px;
+  color: #9698a3;
+  margin-right: 10px;
+}
+
+.footer-post .icon-link {
+  font-size: 21px;
+  color: #9698a3;
+  margin-right: 10px;
+}
+
+.footer-post .icon-add {
+  font-size: 21px;
+  color: #9698a3;
+}
+
+.footer-post .post-on {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #383a4a;
+  vertical-align: 4px;
+}
+
+.footer-post .icon-icon-facebook {
+  font-size: 21px;
+  color: #3b5998;
+  margin-left: 10px;
+}
+
+.footer-post .icon-icon-twitter {
+  font-size: 21px;
+  color: #e1e1e3;
+  margin-left: 10px;
+}

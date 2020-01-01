@@ -1,0 +1,193 @@
+.navbar-maxdino {
+	background-color: #383a4a;
+	border: none;
+	border-radius: 0;
+	color: #fff;
+}
+
+@media (max-width: 576px) {
+	.navbar-maxdino {
+		height: 116px;
+	}
+}
+
+.navbar-maxdino .navbar-brand {
+	margin-right: 0;
+}
+
+@media (max-width: 576px) {
+	.navbar-maxdino .navbar-brand {
+		width: 100%;
+	}
+}
+
+@media (max-width: 576px) {
+	.navbar-maxdino .navbar-brand img {
+		max-width: 131px;
+	}
+}
+
+@media (max-width: 576px) {
+	.navbar-maxdino .navbar-toggler {
+		padding: 0;
+	}
+}
+
+.navbar-maxdino .navbar-toggler .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+	width: 24px;
+	height: 24px;
+}
+
+.navbar-maxdino .navbar-collapse .navbar-nav .nav-item .nav-link {
+	color: #36b662;
+	padding: 0;
+	font-size: 24px;
+	width: 13.3vw;
+	height: 39px;
+	border-radius: 6px;
+	background: #fff;
+	margin-right: 30px;
+	margin-left: 20px;
+}
+
+.navbar-maxdino .navbar-collapse .navbar-nav .nav-item .nav-link .icon-question-circle {
+	line-height: 1.5;
+	padding-right: 6px;
+	padding-left: 10px;
+}
+
+/* .navbar-maxdino .navbar-collapse .navbar-nav .nav-item .nav-link .ask {
+	font-size: 16px;
+} */
+
+.navbar-maxdino .navbar-collapse .navbar-nav .nav-item .nav-link .icon-arrow-down {
+	padding-right: 10px;
+	font-size: 10.1px;
+	color: black;
+}
+
+.navbar-maxdino .navbar-collapse .navbar-nav form {
+	width: 39.6vw;
+	height: 39px;
+	position: relative;
+	display: table;
+	color: #a9aaad;
+}
+
+.navbar-maxdino .navbar-collapse .navbar-nav form .form-button-search {
+	position: absolute;
+	color: black;
+	border-bottom-left-radius: 19px;
+	border-top-left-radius: 19px;
+	z-index: 1;
+	height: 39px;
+	background: #fff;
+	border: none;
+	padding-left: 10px;
+}
+
+.navbar-maxdino .navbar-collapse .navbar-nav form .form-button-search:hover {
+	background: #36b662;
+}
+
+.navbar-maxdino .navbar-collapse .navbar-nav form .form-button-search .icon-search {
+	font-size: 24px;
+	vertical-align: middle;
+}
+
+.navbar-maxdino .navbar-collapse .navbar-nav form .form-input-search {
+	position: absolute;
+	border-radius: 19px;
+	padding-left: 44px;
+	width: 39.6vw;
+	height: 39px;
+	border: none;
+}
+
+.navbar-maxdino .navbar-collapse .navbar-nav.navbar-noti-img-dropdown {
+	width: 165px;
+	height: 39px;
+	padding-left: 45px;
+}
+
+.navbar-maxdino .navbar-collapse .navbar-nav.navbar-noti-img-dropdown .nav-noti {
+	font-size: 22.5px;
+	margin-right: 20px;
+}
+
+.navbar-maxdino .navbar-collapse .navbar-nav.navbar-noti-img-dropdown .nav-img {
+	width: 37px !important;
+	height: 37px;
+	margin-right: 7px;
+}
+
+.navbar-maxdino .navbar-collapse .navbar-nav.navbar-noti-img-dropdown .nav-img a {
+	display: flex;
+	align-items: center;
+}
+
+.navbar-maxdino .navbar-collapse .navbar-nav.navbar-noti-img-dropdown .nav-img a img {
+	margin-right: 7px;
+}
+
+.navbar-maxdino .navbar-collapse .navbar-nav.navbar-noti-img-dropdown .nav-img a .icon-arrow-down {
+	font-size: 10.1px;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.5;
+	color: #383a4a;
+	background-color: #f9f9f9;
+}
+
+@media (max-width: 576px) {
+	.visible-desktop {
+		display: none !important;
+	}
+}
+
+@media (min-width: 577px) {
+	.visible-mobi {
+		display: none !important;
+	}
+}
+
+.mobi-display-collapse {
+	display: flex;
+	margin-right: 5px;
+}
+
+.mobi-display-collapse .button-search {
+	background-color: #383a4a;
+	font-size: 24px;
+	margin-right: 20px;
+	padding-top: 0;
+	padding-bottom: 0;
+	border: none;
+}
+
+.mobi-display-collapse .dropdown-ask .mobi-dropdown-menu {
+	border-radius: 6px;
+	font-size: 16px;
+	color: #36b662;
+	background: #fff;
+	width: 121px;
+	height: 35px;
+	padding: 0;
+}
+
+.mobi-display-collapse .dropdown-ask .mobi-dropdown-menu .icon-arrow-down {
+	font-size: 11px;
+	color: black;
+	margin-right: 10px;
+}
+
+.mobi-display-collapse .dropdown-ask .mobi-dropdown-menu .icon-question-circle {
+	font-size: 20px;
+	margin-left: 9px;
+	margin-right: 5px;
+}

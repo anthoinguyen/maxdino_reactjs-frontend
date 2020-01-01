@@ -1,0 +1,44 @@
+.input-post-content {
+    width: 100%;
+    height: 13vh;
+    background-color: #ffffff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: #e8eaef;
+    padding: 10px 10px;
+}
+.input-post-content::placeholder {
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #a9aaad;
+}
+.icon-ask-config{
+    display: flex;
+    align-items: center;
+}
+.icon-ask-config button{
+   padding: 0px;
+   margin: 0px;
+   padding-top: 5px;
+}
+.icon-ask-config input{
+    padding: 0px;
+    margin: 0px;
+ }
+ .btn-post-status{
+    height: 46px;
+    width: 100%;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #25944c;
+    border: none;
+    font-weight: bold;
+ }
+.loading-post-ask{
+    display: inline;
+}
+.img-loading-post-ask{
+	width: 35px;
+}

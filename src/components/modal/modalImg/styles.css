@@ -1,0 +1,14 @@
+.img-modal-show {
+    object-fit: scale-down;
+    height: 418px;
+    width: 100%;
+}
+
+.modal-img-body {
+    height: 450px;
+    background: black;
+    border-radius: 5px;
+}
+.modal-img {
+    margin-top: 80px;
+}

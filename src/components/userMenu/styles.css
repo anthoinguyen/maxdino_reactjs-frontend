@@ -1,0 +1,32 @@
+.user-menu-config {
+    background-color: #e9eaef;
+    height: 175px;
+    width: 100%;
+}
+.user-infor-config{
+    text-align: center;
+}
+.img-user-infor{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.name-user-infor {
+    color: #383a4a;
+    font-size: 16px;
+    font-weight: bold;
+}
+.change-profile-menu{
+    font-size: 14px;
+    text-decoration: underline !important;
+    color: #36b662 !important;
+    border: none;
+    background-color: #e9eaef;
+}
+.logout-text {
+    color: red;
+    margin-left: 16px;
+    font-weight: bold;
+    font-size: 14px;
+}

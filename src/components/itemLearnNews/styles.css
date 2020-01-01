@@ -1,0 +1,134 @@
+.item-news {
+	width: auto;
+    height: 163px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	padding: 20px 15px 15px 20px;
+}
+
+@media(min-width: 1440px) {
+	.item-news {
+		width: 270px;
+	}
+}
+
+.item-news-img {
+	width: 60px;
+	height: 60px;
+	margin-right: 20px;
+}
+
+.item-news-content {
+	color: #36b662;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.item-news-member {
+	font-family: Montserrat;
+	font-size: 10px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.6;
+	letter-spacing: normal;
+	color: #a9aaad;
+	width: 105px;
+}
+
+.plus-text {
+	font-family: OpenSans;
+	font-size: 10px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.6;
+	letter-spacing: normal;
+	text-align: center;
+	color: #ffffff;
+}
+
+.member-plus {
+	position: relative;
+}
+
+.plus {
+	position: relative;
+	z-index: 4;
+	width: 20px;
+	height: 20px;
+	border: solid 2px #ffffff;
+	background-color: #a9aaad;
+	border-radius: 50%;
+}
+
+.member-1 {
+	position: absolute;
+	z-index: 3;
+	bottom: 0px;
+	left: 10px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: solid 2px #ffffff;
+	background-color: #477581;
+}
+
+.member-2 {
+	position: absolute;
+	z-index: 2;
+	bottom: 0px;
+	left: 20px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: solid 2px #ffffff;
+	background-color: #DF4A36;
+}
+
+.member-3 {
+	position: absolute;
+	z-index: 1;
+	bottom: 0px;
+	left: 30px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: solid 2px #ffffff;
+	background-color: #6DB8F2;
+}
+
+.item-news-percent {
+	padding-left: 8px;
+	margin-left: 11px;
+	border-left: 1px solid #D3D3D3;
+}
+
+.percent-text {
+	width: 96px;
+	height: 16px;
+	font-family: Montserrat;
+	font-size: 10px;
+	font-weight: bold;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.6;
+	letter-spacing: normal;
+	color: #a9aaad;
+}
+
+.percent-content {
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #383a4a;
+}
+
+hr {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}

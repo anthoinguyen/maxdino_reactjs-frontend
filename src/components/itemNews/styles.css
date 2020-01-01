@@ -1,0 +1,52 @@
+.section.section-news .item-news-ask {
+	position: relative;
+	max-height: 130px;
+}
+.section.section-news .item-news-ask .item-news-image{
+    height: 130px;
+}
+.section.section-news .item-news-ask .item-news-image img{
+    height: 100%;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-size: cover;
+}
+.section.section-news .item-news-ask .item-news-content-ask {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	color: #ffffff;
+	padding: 10px;
+	font-size: 12px;
+	background: rgba(62, 64, 62, 0.6);
+}
+
+.section.section-news .item-news-ask .item-news-content-ask .item-news-title-ask {
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.section.section-news .item-news-ask .item-news-content-ask .item-news-detail-ask {
+	margin: 5px 0 10px 0;
+}
+
+.section.section-news .item-news-ask .item-news-content-ask .item-news-detail-ask p {
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+	margin-bottom: 0px;
+}
+
+.section.section-news .item-news-ask .item-news-content-ask .item-news-name-ask {
+	font-size: 10px;
+	font-weight: bold;
+}

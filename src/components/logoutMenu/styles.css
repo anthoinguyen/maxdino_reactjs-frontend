@@ -1,0 +1,11 @@
+.item-logout {
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logout-btn {
+    border: none;
+    background-color: #ffffff;
+    padding: 10px 10px;
+}

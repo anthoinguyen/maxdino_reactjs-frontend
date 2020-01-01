@@ -1,0 +1,22 @@
+.section.section-video .item-video .item-video-img {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.section.section-video .item-video .item-video-img span {
+	position: absolute;
+	font-size: 45px;
+	color: #ffffff;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.thumbnail-video{
+	width: 100%;
+    max-height: 130px;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

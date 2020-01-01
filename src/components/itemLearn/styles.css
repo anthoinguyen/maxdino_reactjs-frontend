@@ -1,0 +1,52 @@
+.section {
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 15px 20px;
+    /* margin-top: 20px; */
+}
+
+.section.section-post-learn {
+    margin-top: 20px;
+}
+
+.section.section-post {
+    width: auto;
+    padding: 20px;
+    box-shadow: 0 15px 27px 0 rgba(56, 58, 74, 0.1);
+}
+
+@media(max-width: 576px) {
+    .section.section-post-learn {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}
+
+@media(min-width: 576px) {
+    .container {
+        padding: 0;
+    }
+}
+
+
+.head-post-name-user {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.date {
+    font-size: 12px;
+    color: #c2c3ce;
+}
+
+.date-content {
+    font-size: 14px;
+}
+
+.head-post-story-subtitle {
+    margin: 0;
+    margin-bottom: 5px;
+}
+.section.section-post-learn.editLearnFirst0 {
+    margin-top: 0;
+}

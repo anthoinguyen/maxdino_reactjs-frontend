@@ -1,0 +1,29 @@
+.logo-menu-toggler {
+  min-width: 160px;
+}
+.button-x-config {
+  border: none;
+  background-color: #383a4a;
+}
+.navbar-maxdino-menu-config {
+  background-color: #383a4a;
+  border: none;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.button-menu-mobile-config {
+  position: fixed;
+  z-index: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(233, 234, 239);
+}
+@media only screen and (min-width: 576px) {
+  .button-menu-mobile-config {
+    display: none;
+  }
+}

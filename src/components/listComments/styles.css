@@ -1,0 +1,9 @@
+.list-ask-comment{
+    border-top: solid 1px #e8eaef;
+}
+@media (max-width: 770px) {
+    .avatar-comment {
+        padding: 0px 0px !important;
+        margin-left: 10px;
+    }
+}
